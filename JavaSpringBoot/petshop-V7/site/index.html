@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PetShop</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <img src="headerFundo.png" alt="" class="header_img_fundo">
+        </header>
+        <main>
+            <form class="registra_cliente" data-registra-cliente-form autocomplete="on">
+                <label for="registra_cliente-nome">Nome</label>
+                <input type="text" id="registra_cliente-nome" placeholder="Digite seu nome" required maxlength="50">
+                <label for="registra_cliente-email">E-mail</label>
+                <input type="email" id="registra_cliente-email" placeholder="Digite seu email" required maxlength="50">
+                <label for="registra_cliente-telefone">Telefone</label>
+                <input type="tel" id="registra_cliente-telefone" name="tel" autocomplete="tel" placeholder="Digite seu Telefone"  required maxlength="50" >
+                <button type="submit" class="registra_cliente-bnt_submit">enviar</button>
+            </form>
+
+            <button type="button" class="listar_itens registra_cliente-bnt_submit" data-listar-itens>Listar</button>
+            <div class="itens_container" data-itens-container>
+                <!-- <div class="itens">
+                    <div class="intens_cliente_info">
+                        <div class="itens_nome itens_cliente" title="Flavio henrique ferreira da silva">Flavio henrique ferreira da silva</div>
+                        <div class="itens_email itens_cliente" title="algumEmail@gmail.com">algumEmail@gmail.com</div>
+                        <div class="itens_telefone itens_cliente">1144442222</div>
+                    </div>
+                    <div class="itens_bnts">
+                        <button class="bnt_atualiza_item bnt_item"></button>
+                        <button class="bnt_deleta_item bnt_item"></button>
+                    </div>
+                </div>
+                <div class="itens">
+                    <form class="form_muda_cliente_info" data-form-muda-cliente-info> 
+                        <input type="text" id="muda_nome" class="muda_nome muda_cliente_info" required maxlength="50" value="Ana julia">
+                        <input type="text" id="muda_email" class="muda_email muda_cliente_info" required maxlength="50">
+                        <input type="tel" id="muda_telefone" class="muda_telefone muda_cliente_info" required maxlength="50">
+                        <button type="submit" class="bnt_muda_cliente_info"></button>
+                    </form>
+                </div> -->
+            </div>
+        </main>
+        <footer>
+
+        </footer>
+        <script src="main.js"></script>
+    </body>
+</html>

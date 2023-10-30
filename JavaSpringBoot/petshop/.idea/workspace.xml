@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f04a2c11-d847-4326-8620-0d3fb91ba0f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../petshop-V3/src/main/java/com/br/petshop/controller/AutenticacaoControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../petshop-V3/src/main/java/com/br/petshop/infra/security/SecurityConfigurations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../petshop-V3/src/main/resources/db/migration/V1__create-teble-clientes.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/headerFundo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/icons/circle-check-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/icons/circle-check-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/icons/pen-to-square-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/icons/pen-to-square-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/icons/rectangle-xmark-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/icons/rectangle-xmark-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/icons/trash-can-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/icons/trash-can-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/petshop/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/petshop/configApi/CorsConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/petshop/controller/ClienteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/petshop/domain/cliente/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/petshop/domain/cliente/ClienteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/petshop/domain/cliente/DadosAtualizaCliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/petshop/domain/cliente/DadosCadastroCliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/petshop/domain/cliente/DadosClientesListar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/br/petshop/infra/TratadorDeErros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/migration/V1__create-teble-clientes.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/br/petshop/DemoApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2QcpDaKaerhrqxtQVLvNMGZdjOA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Flavio/Documents/Estudos/Pessoal/MeusProjetos/Java/JavaSpringBoot/petshop-V7",
+    "settings.editor.selected.configurable": "advanced.settings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.br.petshop.user" />
+      <recent name="com.br.petshop.cliente" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Flavio\Documents\Estudos\Pessoal\MeusProjetos\Java\JavaSpringBoot\petshop-V3\src\main\resources\db\migration" />
+      <recent name="C:\Users\Flavio\Documents\Estudos\Pessoal\MeusProjetos\Java\JavaSpringBoot\petshop-V3\src\main\java\com\br\petshop\domain" />
+      <recent name="C:\Users\Flavio\Documents\Estudos\Pessoal\MeusProjetos\Java\JavaSpringBoot\petshop-V3\src\main\java\com\br\petshop\domain\cliente" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Flavio\Documents\Estudos\Pessoal\MeusProjetos\Java\JavaSpringBoot\petshop-V3\src\main\java\com\br\petshop\infra" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.br.petshop.infra.exception" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="petshop-V2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="petshop-V2" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f04a2c11-d847-4326-8620-0d3fb91ba0f6" name="Changes" comment="" />
+      <created>1685662608126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685662608126</updated>
+    </task>
+    <servers />
+  </component>
+</project>

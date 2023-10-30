@@ -1,0 +1,160 @@
+:root {
+    --cor-1: rgb(127, 175, 233);
+    --shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    min-height: 10vh;
+    /* background: linear-gradient(to bottom, rgb(104, 240, 77),rgb(180, 247, 163), transparent); */
+}
+
+.header_img_fundo {
+    width: 100%;
+}
+
+main {
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.registra_cliente {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 15px auto;
+    padding: 25px;
+    background-color: var(--cor-1);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+}
+
+.registra_cliente label {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.registra_cliente input {
+    height: 50px;
+    font-size: 20px;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+}
+
+.registra_cliente-bnt_submit {
+    width: 125px;
+    margin: 15px auto 0 ;
+    font-size: 2rem;
+    border: none;
+    box-shadow: var(--shadow);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.registra_cliente-bnt_submit:hover {
+    width: 120px;
+    margin: 19px auto 0 ;
+    font-size: 1.8rem;
+}
+
+.listar_itens {
+    display: block;
+    margin: auto;
+}
+
+.itens_container {
+    width: 800px;
+    min-height: 200px;
+    margin: 25px auto;
+    padding: 5px;
+    background-color: var(--cor-1);
+    box-shadow: var(--shadow);
+}
+
+.itens {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 9fr 1fr;
+    width: 90%;
+    height: 50px;
+    margin: 15px auto;
+    padding: 5px;
+    border-bottom: 1px solid black;
+}
+
+.intens_cliente_info {
+    display: flex;
+}
+
+.itens_cliente {
+    max-width: 200px;
+    font-size: 1.2rem;
+    margin: 0px 5px;
+    padding: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bnt_item {
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.bnt_atualiza_item {
+    background: no-repeat center url(icons/pen-to-square-regular.svg);
+}
+
+.bnt_atualiza_item:hover {
+    background: no-repeat center center url(icons/pen-to-square-solid.svg);
+}
+
+.bnt_deleta_item {
+    background: no-repeat center center url(icons/trash-can-regular.svg);
+}
+
+.bnt_deleta_item:hover {
+    background: no-repeat center center url(icons/trash-can-solid.svg);
+}
+
+.form_muda_cliente_info {
+    display: flex;
+    align-items: center;
+}
+
+.muda_cliente_info {
+    max-width: 200px;
+    margin-left: 3px;
+    font-size: 1.1rem;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.bnt_muda_cliente_info {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: no-repeat center center url(icons/circle-check-regular.svg);
+}
+
+.bnt_muda_cliente_info:hover {
+    background: no-repeat center center url(icons/circle-check-solid.svg);
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: brown;
+}
